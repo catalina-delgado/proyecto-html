@@ -1,0 +1,54 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head, nav, main{
+    padding: 10px 20px;
+}
+/* .head, nav, main, footer{
+    background-color: transparent!important;
+    border: 1px solid black;
+} */
+.head{
+    background-color: coral;
+    color: cadetblue;
+    height: 130px;
+    text-align:center;
+}
+.contenido{
+    background-color: transparent;
+    display: flex;
+    margin: 20px 0;
+}
+nav, main{
+    height: 300px;
+}
+nav{
+    background-color: cornflowerblue;
+    color: black;
+    margin-right: 20px;
+    flex: 30%;
+}
+main{
+    background-color: mediumpurple;
+    color: black;
+    flex: 65%;
+    background-image: url('/proyecto/imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: cadetblue;
+    color: darkblue;
+    padding: 3px 20px;
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+.texto{
+    text-align: justify;
+}
